@@ -15,7 +15,7 @@ import spread from "./../../Assets/spread.png"
 
 const HeaderDescription = () => {
     return(
-        <div className="flex flex-col md:flex-row items-center box-border overflow-visible h-screen md:h-fit jus">
+        <div className="flex flex-col md:flex-row items-center box-border overflow-visible max-h-screen md:h-fit max-h-auto">
    
             <div className="flex flex-col gap-5">
                 
@@ -80,7 +80,7 @@ const HeaderDescription = () => {
                 <img src={Group1} className="absolute w-16 right-0 top-16"/>
                     <img src = {PregnantWoman} className = "" />
                 </div>
-                <div className="md:absolute bg-white -bottom-10 md:w-full z-10 flex justify-between  rounded-md  p-2 shadow-sm w-4/5 mx-auto">
+                <div className="md:absolute bg-white -bottom-10 md:w-full z-10 flex justify-between  rounded-md  p-2 shadow-sm w-4/5 mx-auto flex-col md:flex-row ">
                 <div>
                     <h1 className="text-3xl text-waiting_list font-bold">10</h1>
                     <p>Family Members</p>

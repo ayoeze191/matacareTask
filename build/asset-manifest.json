@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85835e10.css",
+    "main.js": "/static/js/main.c12c61f9.js",
+    "static/js/787.88f984e8.chunk.js": "/static/js/787.88f984e8.chunk.js",
+    "static/media/Logomatacare.svg": "/static/media/Logomatacare.66739809f74cc22013fc2dc7ecf0590d.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.85835e10.css.map": "/static/css/main.85835e10.css.map",
+    "main.c12c61f9.js.map": "/static/js/main.c12c61f9.js.map",
+    "787.88f984e8.chunk.js.map": "/static/js/787.88f984e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85835e10.css",
+    "static/js/main.c12c61f9.js"
+  ]
+}

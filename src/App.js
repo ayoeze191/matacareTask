@@ -9,7 +9,7 @@ import Eager from './components/Eager/Eager';
 import Contact from './components/Contact/Contact';
 function App() {
   return (
-    <div className="relative">
+    <div className="">
       <Hero />
       <Feature />
       <Baby />

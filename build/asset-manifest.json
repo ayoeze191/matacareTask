@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.81ae969f.css",
-    "main.js": "/static/js/main.6b38f3df.js",
+    "main.css": "/static/css/main.a79ffdf8.css",
+    "main.js": "/static/js/main.74f212fc.js",
     "static/js/787.88f984e8.chunk.js": "/static/js/787.88f984e8.chunk.js",
+    "static/media/Quotebg.svg": "/static/media/Quotebg.daa329e899ef65c95129350df6d020c1.svg",
     "static/media/nonPregNantWoman.svg": "/static/media/nonPregNantWoman.af158acaa97d5ec95437dc0613964ae5.svg",
+    "static/media/FamilyPicx.png": "/static/media/FamilyPicx.2d3b2837e3a24bdeb1d5.png",
     "static/media/PregnantWoman.svg": "/static/media/PregnantWoman.8fc973b1f2dab63e969c48432a8f6347.svg",
+    "static/media/banjo.png": "/static/media/banjo.37ae06a135ba8b057259.png",
+    "static/media/amusan.png": "/static/media/amusan.e067d6e5373cee0054af.png",
+    "static/media/boluwatife.png": "/static/media/boluwatife.649aae28e74077b3f5b2.png",
+    "static/media/jacob.png": "/static/media/jacob.6b35fb69614a4a346a07.png",
+    "static/media/shoyemi.png": "/static/media/shoyemi.a6154839b06412a36556.png",
     "static/media/Group2.svg": "/static/media/Group2.602f39d8bca95a92e55732d8003f1a39.svg",
     "static/media/Group1.svg": "/static/media/Group1.796cbbc1d6346ed46b8aa73a0e290d6b.svg",
     "static/media/Logomatacare.svg": "/static/media/Logomatacare.66739809f74cc22013fc2dc7ecf0590d.svg",
+    "static/media/Cycle.svg": "/static/media/Cycle.fb64fb946b2b2c747de587fe6864094f.svg",
+    "static/media/community.svg": "/static/media/community.b436e73716507e2a1da1a71266deb41c.svg",
+    "static/media/Female.svg": "/static/media/Female.40872e4b3492beee763cd345c5f37c9a.svg",
+    "static/media/pregnant.svg": "/static/media/pregnant.2397576e2bfde38e920bc5dad5463b35.svg",
+    "static/media/familyCircle.svg": "/static/media/familyCircle.63bf7b83c25e5f5483fd597f4e892b97.svg",
     "index.html": "/index.html",
     "static/media/navBar.svg": "/static/media/navBar.b7779c7e1e13381f6442cbde03af8dc4.svg",
-    "main.81ae969f.css.map": "/static/css/main.81ae969f.css.map",
-    "main.6b38f3df.js.map": "/static/js/main.6b38f3df.js.map",
+    "main.a79ffdf8.css.map": "/static/css/main.a79ffdf8.css.map",
+    "main.74f212fc.js.map": "/static/js/main.74f212fc.js.map",
     "787.88f984e8.chunk.js.map": "/static/js/787.88f984e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ae969f.css",
-    "static/js/main.6b38f3df.js"
+    "static/css/main.a79ffdf8.css",
+    "static/js/main.74f212fc.js"
   ]
 }

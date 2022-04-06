@@ -17,7 +17,7 @@ function App() {
       <Family />
       <Team />
       <Eager />
-      <Contact />
+      {/* <Contact /> */}
       </div>  
   );
 }

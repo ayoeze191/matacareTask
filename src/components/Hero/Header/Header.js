@@ -20,7 +20,7 @@ const Header = () => {
         </div>
         
         <div className='flex gap-4 items-center'>
-        <button className="bg-waiting_list py-2 px-6 rounded-md order-2">Waiting List</button>
+        <button className="bg-waiting_list px-4 sm:py-2 sm:px-6 rounded-md order-2">Waiting List</button>
         <img src={navBar}  className = "h-4 w-5 md:hidden"/>
         </div>
     </div>

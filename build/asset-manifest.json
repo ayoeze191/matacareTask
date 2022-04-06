@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.85835e10.css",
-    "main.js": "/static/js/main.c12c61f9.js",
+    "main.css": "/static/css/main.81ae969f.css",
+    "main.js": "/static/js/main.6b38f3df.js",
     "static/js/787.88f984e8.chunk.js": "/static/js/787.88f984e8.chunk.js",
+    "static/media/nonPregNantWoman.svg": "/static/media/nonPregNantWoman.af158acaa97d5ec95437dc0613964ae5.svg",
+    "static/media/PregnantWoman.svg": "/static/media/PregnantWoman.8fc973b1f2dab63e969c48432a8f6347.svg",
+    "static/media/Group2.svg": "/static/media/Group2.602f39d8bca95a92e55732d8003f1a39.svg",
+    "static/media/Group1.svg": "/static/media/Group1.796cbbc1d6346ed46b8aa73a0e290d6b.svg",
     "static/media/Logomatacare.svg": "/static/media/Logomatacare.66739809f74cc22013fc2dc7ecf0590d.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.85835e10.css.map": "/static/css/main.85835e10.css.map",
-    "main.c12c61f9.js.map": "/static/js/main.c12c61f9.js.map",
+    "static/media/navBar.svg": "/static/media/navBar.b7779c7e1e13381f6442cbde03af8dc4.svg",
+    "main.81ae969f.css.map": "/static/css/main.81ae969f.css.map",
+    "main.6b38f3df.js.map": "/static/js/main.6b38f3df.js.map",
     "787.88f984e8.chunk.js.map": "/static/js/787.88f984e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85835e10.css",
-    "static/js/main.c12c61f9.js"
+    "static/css/main.81ae969f.css",
+    "static/js/main.6b38f3df.js"
   ]
 }

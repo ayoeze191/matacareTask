@@ -13,17 +13,19 @@ import spread from "./../../Assets/spread.png"
 
 
 
+
+
 const HeaderDescription = () => {
     return(
-        <div className="flex flex-col md:flex-row items-center box-border overflow-visible max-h-screen md:h-fit max-h-auto">
+        <div className="flex flex-col md:flex-row  box-border overflow-visible md:h-fit justify-between  gap-10 relative items-end mb-11 description">
    
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 h-full my-auto shrink oh">
                 
                 <div className="flex  flex-col ">
                 <p className="font-semibold text-xs line">CONNECT TO MEDICAL PRACTITIONER EASILY ON YOUR PALM</p>
-                <h1 className="text-header_description text-4xl font-extrabold font-inter">Health Care System For WOMEN In Africa.</h1>
+                <h1 className="text-header_description  text-4xl font-extrabold font-inter">Health Care System For WOMEN In Africa.</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div className="grid gap-3 appointment">
                     <p className="flex gap-3">
                         <div  className="pt-2">
                             <img src={appointment} />
@@ -71,35 +73,18 @@ const HeaderDescription = () => {
                 </div>
             </div>
 
-            <div className="flex p-0 box-border md:w-100 relative w-full">
-                <div className="items-end relative  top-10   box-border h-full  md:flex hidden">
-                    <img src={Group2} className="absolute top-16 w-16 left-16 "/>
-                    <img src = {nonPregNantWoman} />
-                </div>
-                <div className="hidden  md:block md:relative md:z-10 md:h-full md:right-24" >
-                <img src={Group1} className="absolute w-16 right-0 top-16"/>
-                    <img src = {PregnantWoman} className = "" />
-                </div>
-                <div className="md:absolute bg-white -bottom-10 md:w-full z-10 flex justify-between  rounded-md  p-2 shadow-sm w-4/5 mx-auto flex-col md:flex-row ">
+            <div className="relative  shrink-0 women ">
                 <div>
-                    <h1 className="text-3xl text-waiting_list font-bold">10</h1>
-                    <p>Family Members</p>
+                <div className="hidden groups">
+                    <img src={Group2} className="w-auto md:w-16 h-full top-10 left-4 relative"/>
+                    <img src={Group1} className="w-auto  md:w-16 h-full relative bottom-8 right-3"/>
                 </div>
-                <div>
-                <h1 className="text-waiting_list text-3xl font-bold">3000+</h1>
-                    <p>Users</p>
-                </div>
-                <div>
-                <h1 className="text-waiting_list text-3xl font-bold">2021</h1>
-                    <p>Year Founded</p>
-                </div>
-                <div>
-                <h1 className="text-waiting_list text-3xl font-bold">1</h1>
-                    <p>Product(s)</p>
+                <div className="hidden   w-full justify-end top-0 womens">
+                <img src = {nonPregNantWoman}  className = "md:w-96 absolute left-0 bottom-10 -z-3"/>
+                <img src = {PregnantWoman} className = "md:w-60 relative " />
                 </div>
                 </div>
-                
-
+               
             </div>
           
         </div>

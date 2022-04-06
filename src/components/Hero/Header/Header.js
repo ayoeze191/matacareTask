@@ -6,15 +6,15 @@ import navBar from './../../../Assets/navBar.svg'
 
 const Header = () => {
     return(
-    <div className="flex justify-between">
+    <div className="flex justify-between ">
         <div className='flex items-center'><img src={Logomatacare} /></div>
-        <div className='hidden md:block'>
-            <ul className='gap-12 text-center items-center h-full flex'>
-                <li>Home</li>
-                <li>Features</li>
-                <li>About Us</li>
-                <li>Team</li>
-                <li>Contacts</li>
+        <div className='hidden lg:block'>
+            <ul className=' text-center items-center h-full flex'>
+                <li className='mr-4 sm:mr-8 lg:mr-12'>Home</li>
+                <li className='mr-4 sm:mr-8 lg:mr-12'>Features</li>
+                <li className='mr-4 sm:mr-8 lg:mr-12'>About Us</li>
+                <li className='mr-4 sm:mr-8 lg:mr-12'>Team</li>
+                <li className='mr-4 sm:mr-8 lg:mr-12'>Contacts</li>
             </ul>
             
         </div>

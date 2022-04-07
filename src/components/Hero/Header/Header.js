@@ -8,21 +8,20 @@ const Header = (props) => {
  
     return(
     <div className="flex justify-between mb-14">
-        <div className='flex items-center'><img src={Logomatacare} /></div>
+        <div className='flex items-center w-28 lg:w-44'><img src={Logomatacare} className = "w-full"/></div>
         <div className='hidden lg:block'>
             <ul className=' text-center items-center h-full flex' style={{"fontFamily": "inter-Medium"}}>
-                <li className={props.home?"mr-4 sm:mr-8 lg:mr-12 bg-red-500 hover:cursor-pointer":"mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer"}>Home</li>
-                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'>Features</li>
-                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'>About Us</li>
-                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'>Team</li>
-                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'>Contacts</li>
+                <li className={props.home?"mr-4 sm:mr-8 lg:mr-12 after:block after:content-[''] after:bg-black after:h-2 after:mx-auto after:w-2 after:rounded-full hover:cursor-pointer":"mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer"}><a href = "#Hero">Home</a></li>
+                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'><a href = "#Feature" >Features</a></li>
+                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'><a href='#About'>About Us</a></li>
+                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'><a href="#Team">Team</a></li>
+                <li className='mr-4 sm:mr-8 lg:mr-12 hover:cursor-pointer'><a href = "#Contact">Contacts</a></li>
             </ul>
-            
-        </div>
+           </div>
         
         <div className='flex gap-4 items-center'>
         <button className="bg-waiting_list px-4 sm:py-2 sm:px-6 rounded-md order-2" style={{"fontFamily": "inter-Medium"}}>Waiting List</button>
-        <img src={navBar}  className = "h-4 w-5 md:hidden"/>
+        <img src={navBar}  className = "h-4 w-5 lg:hidden"/>
         </div>
     </div>
     )

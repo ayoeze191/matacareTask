@@ -4,7 +4,7 @@ const About = (props) => {
     return (
         <div className="pt-20 w-4/5 mx-auto md:w-full md:px-8" ref={props.pass}>      
               <div className="w-fit mx-auto">
-           <h1 className="text-3xl font-bold text-brand_secondary after:block after:content-[''] after:bg-black after:h-1 after:mx-auto after:w-10 after:mt-1 mb-5" style={{"fontFamily": "inter-ExtraBold"}}>About Us</h1>
+           <h1 className="text-3xl font-bold text-brand_secondary after:block after:content-[''] after:bg-black after:h-1 after:mx-auto after:w-10 after:mt-1 mb-5" style={{"fontFamily": "inter-ExtraBold"}} id = "About">About Us</h1>
            </div>  
             <h1 className="mx-auto mb-10 text-brand_secondary text-4xl  w-fit font-extrabold text-center" style={{"fontFamily": "inter-Black"}}>Who We are at MataCare</h1>
 

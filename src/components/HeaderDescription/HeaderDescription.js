@@ -7,6 +7,9 @@ import doctor from "./../../Assets/doctor.png"
 import healthGurantee from "./../../Assets/healthGurantee.png"
 import appointment from "./../../Assets/appointment.png"
 import spread from "./../../Assets/spread.png"
+import FABs from "./../../Assets/FABs.png"
+import FABs1 from "./../../Assets/FABs1.png"
+
 
 
 
@@ -17,7 +20,7 @@ import spread from "./../../Assets/spread.png"
 
 const HeaderDescription = () => {
     return(
-        <div className="flex flex-col md:flex-row  box-border overflow-visible md:h-fit justify-between  gap-10 relative items-end mb-11 description">
+        <div className="flex flex-col md:flex-row  box-border overflow-visible md:h-fit justify-between  gap-10 relative items-end mb-32 lg:mb-0 pb-6">
    
             <div className="flex flex-col h-full my-auto shrink oh">
                 
@@ -73,17 +76,33 @@ const HeaderDescription = () => {
                 </div>
             </div>
 
-            <div className="relative  shrink-0 women ">
-                <div>
-                <div className="hidden groups">
-                    <img src={Group2} className="w-auto md:w-16 h-full top-10 left-4 relative"/>
-                    <img src={Group1} className="w-auto  md:w-16 h-full relative bottom-8 right-3"/>
+            <div className=" women lg:flex hidden relative">
+            <div className="hidden lg:absolute lg:flex top-1/4 justify-between w-full right-0">
+                    <img src={Group2} className="w-auto md:w-16 h-full bottom-2 left-14  relative"/>
+                    <img src={Group1} className="w-auto  md:w-16 h-full relative bottom-8 right-2"/>
                 </div>
+                <div className="-mr-24 relative top-12  ">
+                <img src = {nonPregNantWoman}  className = ""/>
+                </div>
+                <div className = "relative " >
+                    <div className="w-full h-full absolute flex flex-col justify-between">
+                 
+                        <img src={FABs}  className = "relative right-0 bottom-0 w-16 h-16"/>
+                      
+                        
+                        <img src={FABs} className = "relative left-0 top-0 w-16"/>
+                       
+                       
+                    </div>
+                <img src = {PregnantWoman} />
+                </div>
+                {/* <div>
+               
                 <div className="hidden   w-full justify-end top-0 womens">
                 <img src = {nonPregNantWoman}  className = "md:w-96 absolute left-0 bottom-10 -z-3"/>
                 <img src = {PregnantWoman} className = "md:w-60 relative " />
                 </div>
-                </div>
+                </div> */}
                
             </div>
           

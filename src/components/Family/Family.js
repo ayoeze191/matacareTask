@@ -4,7 +4,7 @@ import familyCircle from "./../../Assets/familyCircle.svg"
 const Family = () => {
     return (
         <div className="w-full mt-24 md:mt-auto">
-            <div className="w-4/5 mx-auto">
+            <div className="w-4/5 mx-auto"  data-aos = "zoom-in" data-aos-duration = "700">
                
                 <img src={familyCircle} className = "relative w-fit float-right hidden md:flex" style={{top: "70px"}}/>
                

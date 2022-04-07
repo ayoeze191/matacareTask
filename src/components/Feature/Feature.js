@@ -7,9 +7,9 @@ import pregnant from "./../../Assets/pregnant.svg"
 
 const Feature = (props) => {
     return (
-        <div className="w-full py-10 px-5 md:px-10 relative pb-20" ref={props.pass}>
-            <div className="  mx-auto  flex justify-center w-full  h-fit features">
-             <div className="flex flex-col w-4/5 items-center h-fit relative -mt-24  rounded-lg p-5 bg-white shadow-md feature" style={{"fontFamily": "inter-Black"}}>
+        <div className="w-full py-10 px-5 md:px-10 relative pb-20 " ref={props.pass} id ="Feature">
+            <div className=" mx-auto  flex justify-center w-full  h-fit lg:justify-end lg:right-0 z-50 ">
+             <div className="flex flex-col w-4/5 items-center h-fit relative -mt-24  rounded-lg p-5 bg-white shadow-md lg:flex-row lg:w-fit py-6" style={{"fontFamily": "inter-Black"}}>
                 <div className="md:mr-12">
                     <h1 className="text-4xl text-waiting_list font-bold text-center" >10</h1>
                     <p className="text-center text-xl text-brand_secondary" style={{"fontFamily": "inter-Medium"}}>Family Members</p>

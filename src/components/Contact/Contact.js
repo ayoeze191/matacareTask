@@ -8,7 +8,7 @@ import Instagram from "./../../Assets/Instagram.png";
 
 const Contact = (props) => {
   return (
-    <div className="pt-20 px-5 lg:px-10 pb-5" ref={props.pass}>
+    <div className="pt-20 px-5 lg:px-10 pb-5" ref={props.pass} id = "Contact">
       <div className="w-fit mx-auto">
         <h1 className="text-3xl font-bold text-brand_secondary after:block after:content-[''] after:bg-black after:h-1 after:mx-auto after:w-10 after:mt-1 mb-5 text-center" style={{"fontFamily": "inter-ExtraBold"}}>
           Contact
@@ -89,7 +89,7 @@ const Contact = (props) => {
           </button>
         </div>
       </div>
-      <h3 className="text-xl w-full text-center text-xl" style={{"fontFamily": "inter-Medium"}}>
+      <h3 className="text-xl w-full text-center" style={{"fontFamily": "inter-Medium"}}>
         © Copyright <span className="font-bold">MataCare 2021</span>. All Rights Reserved
       </h3>
     </div>

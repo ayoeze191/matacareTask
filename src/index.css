@@ -12,6 +12,11 @@
 
   
  }
+
+ html {
+    scroll-behavior: smooth;
+  }
+  
  .appointment{
     grid-template-columns: repeat(1, minmax(0, 1fr));
     width: 100%;
@@ -23,11 +28,8 @@
 .womens {
     display: none;
 }
-@media (min-width: 700px){
-    .description{
-        margin-bottom: 88px;
-    }
-}
+
+
 @media (min-width: 979px){
 
     .groups{
@@ -43,23 +45,12 @@
     .womens {
         display: flex;
     }
-    .description{
-        margin-bottom: 0;
-    }
-    .features{
-        right: 0;
-        justify-content: end;
-    }
-    .feature{
-        flex-direction: row;
-        padding: 1.25rem auto;
-        width: fit-content;
-        right: 0;
-    }
     
-    .appointment{
+
+    
+    /* .appointment{
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    } */
     
 }
 

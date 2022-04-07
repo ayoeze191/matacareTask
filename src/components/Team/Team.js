@@ -24,7 +24,7 @@ const Team = (props) => {
 
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-48">
                <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration = "700">
-                   <div className="bg-red-100">
+                   <div className="">
                        <div>
                    <img src={jacob}  className = "w-full mb-4"/>
                    </div>

@@ -8,6 +8,11 @@ module.exports = {
         header_description: "#01295F",
         header_background: "#F4F4F9",
         brand_secondary: "#01295F",
+        area: "#ECEBF3",
+        header_text: "#344A53"
+      },
+      flex: {
+        0.4: '0.6'
       },
     fontFamily: {
       // "inter": ["inter Light"]

@@ -3,7 +3,7 @@ import Quotebg from "./../../Assets/Quotebg.svg"
 
 const Baby = () => {
     return(
-        <div className="bg-group2  w-full bg-cover mx-auto relative h-60">
+        <div className="bg-group2  w-full bg-cover mx-auto relative h-60 " style={{"fontFamily": "inter-Regular"}}>
         <div className="w-full h-full before:bg-black before:opacity-50 before:h-full before:w-full  before:block before:content-[''] before:absolute before:mx-auto flex flex-col items-center justify-center">
             <p className="text-white text-center z-10">Loving a baby is a acircular business, a kind of feedback
                 <br/>

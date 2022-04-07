@@ -81,3 +81,25 @@
      margin-left: auto;
      margin-right: auto;
  }
+
+
+
+ @font-face {
+    font-family: 'inter-Black';
+    src: local('inter-Black'), url(./fonts/Inter-Black.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'inter-Medium';
+    src: local('inter-Medium'), url(./fonts/Inter-Medium.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'inter-Regular';
+    src: local('inter-Regular'), url(./fonts/Inter-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'inter-ExtraBold';
+    src: local('inter-ExtraBold'), url(./fonts/Inter-ExtraBold.ttf) format('truetype');
+  }

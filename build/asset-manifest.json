@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1d49c4c.css",
-    "main.js": "/static/js/main.2c7b7a45.js",
+    "main.css": "/static/css/main.f9da3978.css",
+    "main.js": "/static/js/main.11116cc9.js",
     "static/js/787.88f984e8.chunk.js": "/static/js/787.88f984e8.chunk.js",
     "static/media/Quotebg.svg": "/static/media/Quotebg.daa329e899ef65c95129350df6d020c1.svg",
     "static/media/nonPregNantWoman.svg": "/static/media/nonPregNantWoman.af158acaa97d5ec95437dc0613964ae5.svg",
     "static/media/FamilyPicx.png": "/static/media/FamilyPicx.2d3b2837e3a24bdeb1d5.png",
     "static/media/PregnantWoman.svg": "/static/media/PregnantWoman.8fc973b1f2dab63e969c48432a8f6347.svg",
+    "static/media/Inter-ExtraBold.ttf": "/static/media/Inter-ExtraBold.4575fccf5b3158df637f.ttf",
+    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.24d6be6c502d39fb3ce1.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.e7231ba33760832432b8.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.2391725004ae05a27e8e.ttf",
     "static/media/banjo.png": "/static/media/banjo.37ae06a135ba8b057259.png",
     "static/media/amusan.png": "/static/media/amusan.e067d6e5373cee0054af.png",
     "static/media/boluwatife.png": "/static/media/boluwatife.649aae28e74077b3f5b2.png",
+    "static/media/ikuejawa.png": "/static/media/ikuejawa.2ba3da351ea16cbffcc1.png",
     "static/media/jacob.png": "/static/media/jacob.6b35fb69614a4a346a07.png",
     "static/media/shoyemi.png": "/static/media/shoyemi.a6154839b06412a36556.png",
+    "static/media/gbogo.png": "/static/media/gbogo.3355cd6890c372b835b3.png",
+    "static/media/okpe.png": "/static/media/okpe.6e64a75da4a615ab74f6.png",
+    "static/media/moranti.png": "/static/media/moranti.438d7d42257363bb1492.png",
     "static/media/Group2.svg": "/static/media/Group2.602f39d8bca95a92e55732d8003f1a39.svg",
     "static/media/Group1.svg": "/static/media/Group1.796cbbc1d6346ed46b8aa73a0e290d6b.svg",
     "static/media/Logomatacare.svg": "/static/media/Logomatacare.66739809f74cc22013fc2dc7ecf0590d.svg",
@@ -22,12 +30,12 @@
     "static/media/familyCircle.svg": "/static/media/familyCircle.63bf7b83c25e5f5483fd597f4e892b97.svg",
     "index.html": "/index.html",
     "static/media/navBar.svg": "/static/media/navBar.b7779c7e1e13381f6442cbde03af8dc4.svg",
-    "main.c1d49c4c.css.map": "/static/css/main.c1d49c4c.css.map",
-    "main.2c7b7a45.js.map": "/static/js/main.2c7b7a45.js.map",
+    "main.f9da3978.css.map": "/static/css/main.f9da3978.css.map",
+    "main.11116cc9.js.map": "/static/js/main.11116cc9.js.map",
     "787.88f984e8.chunk.js.map": "/static/js/787.88f984e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d49c4c.css",
-    "static/js/main.2c7b7a45.js"
+    "static/css/main.f9da3978.css",
+    "static/js/main.11116cc9.js"
   ]
 }

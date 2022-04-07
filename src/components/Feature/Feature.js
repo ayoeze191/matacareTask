@@ -34,24 +34,24 @@ const Feature = (props) => {
                 </div>
                 <div className="flex flex-col mx-auto w-full max-w-3xl" style={{"fontFamily": "inter-Regular"}}>
                     <div className="flex w-full justify-evenly mb-8 flex-col sm:flex-row">
-                        <div className="bg-white shadow-lg shadow-slate-300 flex items-center px-5 py-0 mb-8 sm:mb-0 w-4/5 sm:w-fit features">
+                        <div className="bg-white shadow-sm shadow-slate-300 flex items-center px-5 py-0 mb-8 sm:mb-0 w-4/5 sm:w-fit features">
                     <div className="w-10 h-20 flex center mr-5"><img src={Female} className = "w-full"/></div> 
                     <p className="text-left text-brand_secondary font-semibold">Africa Women</p> 
                     </div>
                     
-                        <div className="bg-white shadow-lg shadow-slate-300 flex items-center px-5 py-0 features w-4/5 sm:w-fit">
+                        <div className="bg-white shadow-sm shadow-slate-300 flex items-center px-5 py-0 features w-4/5 sm:w-fit">
                     <div className="w-10 h-20 flex center  mr-5"><img src={pregnant} className = "w-full"/></div>
                      <p className="text-left text-brand_secondary font-semibold">Pregnant & Nursing Mothers</p>
                     </div>
                     </div>
 
                     <div className="flex w-full justify-evenly flex-col sm:flex-row">
-                        <div className="bg-white shadow-lg shadow-slate-300 flex items-center px-3 py-0 mb-8 sm:mb-0 features w-4/5 sm:w-fit">
+                        <div className="bg-white shadow-sm shadow-slate-300 flex items-center px-3 py-0 mb-8 sm:mb-0 features w-4/5 sm:w-fit">
                     <div className="w-14 h-20 flex center mr-5"><img src={community} className = "w-full"/></div>
                       <p className="text-left text-brand_secondary font-semibold">Community </p> 
                     </div>
                    
-                        <div className="bg-white shadow-lg shadow-slate-300  flex items-center px-4 py-0 features w-4/5 sm:w-fit">
+                        <div className="bg-white shadow-sm shadow-slate-300  flex items-center px-4 py-0 features w-4/5 sm:w-fit">
                     <div className="w-12 h-20 flex center mr-5"><img src={Cycle} className = "w-full"/></div>
                     <p className="text-left text-brand_secondary font-semibold">Menstrual Cycle</p> 
                     </div>

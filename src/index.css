@@ -16,7 +16,7 @@
  html {
     scroll-behavior: smooth;
   }
-  
+
  .appointment{
     grid-template-columns: repeat(1, minmax(0, 1fr));
     width: 100%;
@@ -93,4 +93,9 @@
   @font-face {
     font-family: 'inter-ExtraBold';
     src: local('inter-ExtraBold'), url(./fonts/Inter-ExtraBold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'inter-light';
+    src: local('inter-light'), url(./fonts/Inter-Light.ttf) format('truetype');
   }

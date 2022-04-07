@@ -18,7 +18,7 @@ const Contact = (props) => {
         Where You Can Reach Us
       </h1>
 
-      <div className="flex justify-between mb-16 flex-col lg:flex-row">
+      <div className="flex justify-between mb-16 flex-col lg:flex-row md:gap-24">
         <div className="flex flex-col flex-0.4">
           <h3 className="flex mb-10 flex-col lg:flex-row items-center text-center md:text-left">
             <div className="mr-4 h-full flex items-start">

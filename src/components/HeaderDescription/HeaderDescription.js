@@ -20,7 +20,7 @@ import FABs1 from "./../../Assets/FABs1.png"
 
 const HeaderDescription = () => {
     return(
-        <div className="flex flex-col md:flex-row  box-border overflow-visible md:h-fit justify-between  gap-10 relative items-end mb-32 lg:mb-0 pb-6">
+        <div className="flex flex-col md:flex-row  box-border overflow-visible md:h-fit justify-between  gap-10 relative items-end mb-32  lg:mb-10 pb-6">
    
             <div className="flex flex-col h-full my-auto shrink oh">
                 
@@ -28,8 +28,8 @@ const HeaderDescription = () => {
                 <p className="font-semibold text-xs line text-header_text" style={{"fontFamily": "inter-Medium"}}>CONNECT TO MEDICAL PRACTITIONER EASILY ON YOUR PALM</p>
                 <h1 className="text-header_description  text-4xl font-extrabold font-inter" style={{"fontFamily": "inter-Black"}}>Health Care System For WOMEN In Africa.</h1>
                 </div>
-                <div className="grid appointment">
-                    <p className="flex mb-4 mr-6">
+                <div className="grid lg:grid-cols-2 ">
+                    <p className="flex mb-12 mr-16">
                         <div  className="pt-2 mr-2">
                             <img src={appointment} />
                         </div>
@@ -37,7 +37,7 @@ const HeaderDescription = () => {
                         <h3 style={{"fontFamily": "inter-Regular"}} className = "text-header_text">schedule with Your Favourite Consultant anytime.</h3></p>
                         
                     </p>
-                    <p className="flex mb-4 mr-6">
+                    <p className="flex mb-12 ">
                         
                             <div  className="pt-2 mr-2">
                                 <img src={healthGurantee} />
@@ -48,7 +48,7 @@ const HeaderDescription = () => {
                         </p>
                         
                     </p>
-                    <p className="flex mr-6">
+                    <p className="flex mr-16">
                      
                             <div className="pt-2 mr-2">
                             <img src={doctor} />
@@ -58,7 +58,7 @@ const HeaderDescription = () => {
                         <h3 style={{"fontFamily": "inter-Regular"}} className = "text-header_text">We always provide the best service for you  anytime</h3>
                         </p>
                     </p>
-                    <p className="flex mr-6">
+                    <p className="flex mr-16">
                        
                             <div  className="pt-2 mr-2">
                         <img src={spread} />
@@ -76,15 +76,15 @@ const HeaderDescription = () => {
                 </div>
             </div>
 
-            <div className=" women lg:flex hidden relative">
+            <div className=" women lg:flex hidden relative items-end">
             <div className="hidden lg:absolute lg:flex top-1/4 justify-between w-full right-0">
                     <img src={Group2} className="w-auto md:w-16 h-full bottom-2 left-14  relative"/>
                     <img src={Group1} className="w-auto  md:w-16 h-full relative bottom-8 right-2"/>
                 </div>
-                <div className="-mr-24 relative top-12  ">
+                <div className="-mr-24 relative top-6">
                 <img src = {nonPregNantWoman}  className = ""/>
                 </div>
-                <div className = "relative " >
+                <div className = "relative top-6" >
                     <div className="w-full h-full absolute flex flex-col justify-between">
                  
                         <img src={FABs}  className = "relative right-0 bottom-0 w-16 h-16"/>
@@ -94,7 +94,7 @@ const HeaderDescription = () => {
                        
                        
                     </div>
-                <img src = {PregnantWoman} />
+                <img src = {PregnantWoman} cla />
                 </div>
                 {/* <div>
                

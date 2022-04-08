@@ -7,7 +7,6 @@
     .women{
         width: 500px;
         flex-shrink: 0.2; 
-        /* background-color: red; */
     }
 
   
@@ -39,28 +38,13 @@
         justify-content: space-between;
         display: flex;
         width: 90%;
-        /* transform: rotate(150deg); */
     }
 
     .womens {
         display: flex;
     }
     
-
-    
-    /* .appointment{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    } */
-    
 }
-
-
-
- @media  (max-width: 500px) {
-     .women{
-         /* flex-shrink: 1; */
-     }
- }
 
  @media (min-width:640px) {
      .features{

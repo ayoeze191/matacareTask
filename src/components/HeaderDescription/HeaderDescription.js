@@ -26,7 +26,7 @@ const HeaderDescription = () => {
                 
                 <div className="flex  flex-col mb-5">
                 <p className="font-semibold text-xs line text-header_text" style={{"fontFamily": "inter-Medium"}}>CONNECT TO MEDICAL PRACTITIONER EASILY ON YOUR PALM</p>
-                <h1 className="text-header_description  text-4xl font-extrabold font-inter" style={{"fontFamily": "inter-Black"}}>Health Care System For WOMEN In Africa.</h1>
+                <h1 className="text-header_description  text-4xl font-extrabold font-inter" style={{"fontFamily": "inter-Black"}}>Health Care System For PREGNANT WOMEN In Africa.</h1>
                 </div>
                 <div className="grid lg:grid-cols-2 ">
                     <p className="flex mb-12 mr-16">
@@ -37,7 +37,7 @@ const HeaderDescription = () => {
                         <h3 style={{"fontFamily": "inter-Regular"}} className = "text-header_text">schedule with Your Favourite Consultant anytime.</h3></p>
                         
                     </p>
-                    <p className="flex mb-12 ">
+                    <p className="flex mb-12 mr-16">
                         
                             <div  className="pt-2 mr-2">
                                 <img src={healthGurantee} />
@@ -48,7 +48,7 @@ const HeaderDescription = () => {
                         </p>
                         
                     </p>
-                    <p className="flex mr-16">
+                    <p className="flex mr-16 mb-12">
                      
                             <div className="pt-2 mr-2">
                             <img src={doctor} />
@@ -58,7 +58,7 @@ const HeaderDescription = () => {
                         <h3 style={{"fontFamily": "inter-Regular"}} className = "text-header_text">We always provide the best service for you  anytime</h3>
                         </p>
                     </p>
-                    <p className="flex mr-16">
+                    <p className="flex mr-16 mb-12">
                        
                             <div  className="pt-2 mr-2">
                         <img src={spread} />

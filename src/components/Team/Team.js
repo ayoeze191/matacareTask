@@ -20,18 +20,18 @@ const Team = (props) => {
         <div className="w-fit mx-auto">
            <h1 className="text-3xl font-bold text-brand_secondary after:block after:content-[''] after:bg-black after:h-1 after:mx-auto after:w-10 after:mt-1 mb-5" style={{"fontFamily": "inter-ExtraBold"}}>Team</h1>
            </div>  
-           <h1 className="mx-auto mb-10 text-brand_secondary text-4xl  w-fit font-extrabold" style={{"fontFamily": "inter-Black"}}>Meet The Family</h1>
+           <h1 className="mx-auto mb-10 text-brand_secondary text-4xl  w-fit font-extrabold text-center" style={{"fontFamily": "inter-Black"}}>Meet The Family</h1>
 
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-48">
                <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration = "700">
-                   <div className="">
-                       <div>
+                  
+                      
                    <img src={jacob}  className = "w-full mb-4"/>
-                   </div>
-                    <div className="flex relative bottom-16 left-6" >
-                       <div className="mr-5"><img src={Linkedin}  className = " "/>  </div><div className="mr-5"><img src={twitt}  className = ""/> </div>  <div><img src={messenger}  className = "inline bottom-20"/></div>
+                  
+                    <div className="flex relative bottom-16 right-24" >
+                       <div className="mr-5"><img src={Linkedin}  className = ""/>  </div><div className="mr-5"><img src={twitt}  className = ""/> </div>  <div><img src={messenger}  className = "inline bottom-20"/></div>
                        </div>
-                   </div>
+                  
                    <h2 className="text-3xl font-bold text-brand_secondary w-full text-left mb-4 pl-4" style={{"fontFamily": "inter-ExtraBold"}}>Kehinde Jacob</h2>
                    <h3 className="text-xl font-semibold w-full text-left pl-4" style={{"fontFamily": "inter-Medium"}}>Co-founder & CEO</h3>
                </div>

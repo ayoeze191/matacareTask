@@ -25,11 +25,12 @@ const Team = (props) => {
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-48">
                <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration = "700">
                   
-                      
+                      <div className = "relative h-fit p-0">
                    <img src={jacob}  className = "w-full mb-4"/>
-                  
-                    <div className="flex relative bottom-16 right-24" >
-                       <div className="mr-5"><img src={Linkedin}  className = ""/>  </div><div className="mr-5"><img src={twitt}  className = ""/> </div>  <div><img src={messenger}  className = "inline bottom-20"/></div>
+                    
+                    <div className="flex absolute bottom-8 left-4" >
+                       <div className="mr-2"><img src={Linkedin}  className = ""/>  </div><div className="mr-2"><img src={twitt}  className = ""/> </div>  <div><img src={messenger}  className = "inline bottom-20"/></div>
+                       </div>
                        </div>
                   
                    <h2 className="text-3xl font-bold text-brand_secondary w-full text-left mb-4 pl-4" style={{"fontFamily": "inter-ExtraBold"}}>Kehinde Jacob</h2>
